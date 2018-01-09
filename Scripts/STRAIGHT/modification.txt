@@ -1,0 +1,3 @@
+straightBodyC03ma  50ÐÐframe=80£»
+exstraightAPind   240ÐÐprm.F0defaultWindowLength = 80;
+exstraightspec     82ÐÐprm.defaultFrameLength = 80;

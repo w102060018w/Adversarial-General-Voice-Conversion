@@ -1,0 +1,366 @@
+nohup: ignoring input
+==================
+TIMESTEP :  50
+LSTM_HIDDIM :  256
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:30.983
+500  | MSE:21.094
+1000  | MSE:20.723
+1500  | MSE:20.832
+2000  | MSE:21.422
+2500  | MSE:21.363
+3000  | MSE:21.693
+3500  | MSE:21.886
+4000  | MSE:21.417
+4500  | MSE:21.247
+5000  | MSE:20.625
+5500  | MSE:21.083
+6000  | MSE:21.515
+6500  | MSE:20.098
+7000  | MSE:21.179
+7500  | MSE:21.207
+8000  | MSE:20.819
+8500  | MSE:21.442
+9000  | MSE:21.076
+9500  | MSE:20.935
+==================
+TIMESTEP :  50
+LSTM_HIDDIM :  200
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:29.911
+500  | MSE:21.215
+1000  | MSE:21.387
+1500  | MSE:21.41
+2000  | MSE:21.884
+2500  | MSE:21.685
+3000  | MSE:20.657
+3500  | MSE:21.978
+4000  | MSE:21.093
+4500  | MSE:20.465
+5000  | MSE:21.623
+5500  | MSE:19.89
+6000  | MSE:21.299
+6500  | MSE:21.465
+7000  | MSE:20.949
+7500  | MSE:20.95
+8000  | MSE:21.015
+8500  | MSE:21.732
+9000  | MSE:21.111
+9500  | MSE:21.263
+==================
+TIMESTEP :  50
+LSTM_HIDDIM :  160
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:30.576
+500  | MSE:21.27
+1000  | MSE:20.873
+1500  | MSE:20.723
+2000  | MSE:21.353
+2500  | MSE:20.487
+3000  | MSE:22.109
+3500  | MSE:21.266
+4000  | MSE:20.698
+4500  | MSE:20.793
+5000  | MSE:21.472
+5500  | MSE:21.707
+6000  | MSE:21.092
+6500  | MSE:21.605
+7000  | MSE:20.881
+7500  | MSE:22.179
+8000  | MSE:19.972
+8500  | MSE:21.32
+9000  | MSE:21.679
+9500  | MSE:21.602
+==================
+TIMESTEP :  50
+LSTM_HIDDIM :  100
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:30.518
+500  | MSE:21.568
+1000  | MSE:20.484
+1500  | MSE:20.46
+2000  | MSE:21.504
+2500  | MSE:21.403
+3000  | MSE:21.872
+3500  | MSE:21.069
+4000  | MSE:21.94
+4500  | MSE:20.388
+5000  | MSE:21.576
+5500  | MSE:20.778
+6000  | MSE:20.335
+6500  | MSE:21.308
+7000  | MSE:21.338
+7500  | MSE:22.003
+8000  | MSE:21.231
+8500  | MSE:21.568
+9000  | MSE:21.711
+9500  | MSE:21.038
+==================
+TIMESTEP :  50
+LSTM_HIDDIM :  60
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:30.969
+500  | MSE:21.645
+1000  | MSE:21.018
+1500  | MSE:21.515
+2000  | MSE:21.132
+2500  | MSE:21.24
+3000  | MSE:21.646
+3500  | MSE:21.705
+4000  | MSE:21.42
+4500  | MSE:21.345
+5000  | MSE:21.011
+5500  | MSE:23.209
+6000  | MSE:20.835
+6500  | MSE:21.248
+7000  | MSE:21.486
+7500  | MSE:21.595
+8000  | MSE:21.133
+8500  | MSE:22.261
+9000  | MSE:21.155
+9500  | MSE:21.667
+==================
+TIMESTEP :  100
+LSTM_HIDDIM :  256
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:30.124
+500  | MSE:21.431
+1000  | MSE:21.671
+1500  | MSE:21.37
+2000  | MSE:21.379
+2500  | MSE:20.951
+3000  | MSE:21.367
+3500  | MSE:21.005
+4000  | MSE:21.174
+4500  | MSE:21.835
+5000  | MSE:21.088
+5500  | MSE:20.826
+6000  | MSE:21.461
+6500  | MSE:21.141
+7000  | MSE:20.804
+7500  | MSE:21.158
+8000  | MSE:20.899
+8500  | MSE:20.92
+9000  | MSE:21.262
+9500  | MSE:21.018
+==================
+TIMESTEP :  100
+LSTM_HIDDIM :  200
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:30.293
+500  | MSE:21.305
+1000  | MSE:21.31
+1500  | MSE:20.788
+2000  | MSE:21.237
+2500  | MSE:20.367
+3000  | MSE:21.301
+3500  | MSE:21.303
+4000  | MSE:21.367
+4500  | MSE:20.721
+5000  | MSE:21.536
+5500  | MSE:20.917
+6000  | MSE:20.86
+6500  | MSE:20.592
+7000  | MSE:21.154
+7500  | MSE:20.621
+8000  | MSE:21.086
+8500  | MSE:21.146
+9000  | MSE:21.225
+9500  | MSE:20.729
+==================
+TIMESTEP :  100
+LSTM_HIDDIM :  160
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:30.927
+500  | MSE:21.59
+1000  | MSE:21.697
+1500  | MSE:21.724
+2000  | MSE:21.225
+2500  | MSE:21.521
+3000  | MSE:21.101
+3500  | MSE:21.266
+4000  | MSE:21.118
+4500  | MSE:21.713
+5000  | MSE:20.649
+5500  | MSE:20.998
+6000  | MSE:21.407
+6500  | MSE:21.291
+7000  | MSE:21.382
+7500  | MSE:21.506
+8000  | MSE:21.306
+8500  | MSE:21.431
+9000  | MSE:20.873
+9500  | MSE:21.449
+==================
+TIMESTEP :  100
+LSTM_HIDDIM :  100
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:29.231
+500  | MSE:21.435
+1000  | MSE:21.675
+1500  | MSE:20.944
+2000  | MSE:21.147
+2500  | MSE:21.397
+3000  | MSE:21.466
+3500  | MSE:20.766
+4000  | MSE:21.36
+4500  | MSE:20.94
+5000  | MSE:21.352
+5500  | MSE:21.087
+6000  | MSE:21.076
+6500  | MSE:20.949
+7000  | MSE:20.839
+7500  | MSE:20.825
+8000  | MSE:21.312
+8500  | MSE:21.043
+9000  | MSE:21.442
+9500  | MSE:21.881
+==================
+TIMESTEP :  100
+LSTM_HIDDIM :  60
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:30.332
+500  | MSE:21.188
+1000  | MSE:20.917
+1500  | MSE:21.507
+2000  | MSE:21.774
+2500  | MSE:21.189
+3000  | MSE:21.804
+3500  | MSE:20.809
+4000  | MSE:20.928
+4500  | MSE:21.34
+5000  | MSE:20.664
+5500  | MSE:20.647
+6000  | MSE:21.808
+6500  | MSE:21.049
+7000  | MSE:21.351
+7500  | MSE:21.452
+8000  | MSE:21.761
+8500  | MSE:20.967
+9000  | MSE:21.006
+9500  | MSE:21.781
+==================
+TIMESTEP :  200
+LSTM_HIDDIM :  256
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:29.954
+500  | MSE:21.209
+1000  | MSE:21.253
+1500  | MSE:21.083
+2000  | MSE:21.162
+2500  | MSE:21.029
+3000  | MSE:20.957
+3500  | MSE:21.054
+4000  | MSE:21.227
+4500  | MSE:20.616
+5000  | MSE:21.163
+5500  | MSE:21.041
+6000  | MSE:21.122
+6500  | MSE:20.646
+7000  | MSE:20.998
+7500  | MSE:21.336
+8000  | MSE:21.146
+8500  | MSE:21.147
+9000  | MSE:21.036
+9500  | MSE:20.707
+==================
+TIMESTEP :  200
+LSTM_HIDDIM :  200
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:30.026
+500  | MSE:21.3
+1000  | MSE:21.163
+1500  | MSE:21.085
+2000  | MSE:21.208
+2500  | MSE:20.96
+3000  | MSE:20.861
+3500  | MSE:21.175
+4000  | MSE:21.154
+4500  | MSE:20.882
+5000  | MSE:20.985
+5500  | MSE:21.57
+6000  | MSE:21.631
+6500  | MSE:21.188
+7000  | MSE:21.319
+7500  | MSE:21.444
+8000  | MSE:21.004
+8500  | MSE:21.097
+9000  | MSE:21.128
+9500  | MSE:20.847
+==================
+TIMESTEP :  200
+LSTM_HIDDIM :  160
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:30.298
+500  | MSE:21.145
+1000  | MSE:20.919
+1500  | MSE:21.264
+2000  | MSE:21.496
+2500  | MSE:20.902
+3000  | MSE:20.955
+3500  | MSE:21.359
+4000  | MSE:21.615
+4500  | MSE:21.38
+5000  | MSE:21.302
+5500  | MSE:21.007
+6000  | MSE:21.507
+6500  | MSE:20.691
+7000  | MSE:21.223
+7500  | MSE:21.209
+8000  | MSE:21.344
+8500  | MSE:20.847
+9000  | MSE:21.17
+9500  | MSE:21.506
+==================
+TIMESTEP :  200
+LSTM_HIDDIM :  100
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:30.182
+500  | MSE:20.857
+1000  | MSE:21.441
+1500  | MSE:20.877
+2000  | MSE:21.586
+2500  | MSE:20.91
+3000  | MSE:21.124
+3500  | MSE:21.246
+4000  | MSE:20.718
+4500  | MSE:21.1
+5000  | MSE:20.972
+5500  | MSE:20.723
+6000  | MSE:20.537
+6500  | MSE:21.141
+7000  | MSE:21.186
+7500  | MSE:21.367
+8000  | MSE:21.48
+8500  | MSE:20.735
+9000  | MSE:20.979
+9500  | MSE:21.001
+==================
+TIMESTEP :  200
+LSTM_HIDDIM :  60
+==================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:30.506
+500  | MSE:21.277
+1000  | MSE:20.987
+1500  | MSE:21.392
+2000  | MSE:21.119
+2500  | MSE:20.927
+3000  | MSE:21.457
+3500  | MSE:21.111
+4000  | MSE:21.169
+4500  | MSE:21.167

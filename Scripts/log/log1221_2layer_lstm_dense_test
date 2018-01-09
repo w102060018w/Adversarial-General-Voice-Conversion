@@ -1,0 +1,23 @@
+nohup: ignoring input
+================== Remove variational part! Test on Pure AE.  ===================
+We will take "only the last time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*128)
+0  | MSE:30.531
+500  | MSE:20.881
+1000  | MSE:21.255
+1500  | MSE:20.657
+2000  | MSE:21.009
+2500  | MSE:21.109
+3000  | MSE:20.669
+3500  | MSE:21.588
+4000  | MSE:21.155
+4500  | MSE:21.884
+5000  | MSE:21.094
+5500  | MSE:20.991
+6000  | MSE:21.083
+6500  | MSE:21.235
+7000  | MSE:21.056
+7500  | MSE:21.256
+8000  | MSE:21.093
+8500  | MSE:20.981
+9000  | MSE:20.878
+9500  | MSE:22.116

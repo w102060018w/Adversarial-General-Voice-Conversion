@@ -1,0 +1,36 @@
+nohup: ignoring input
+We will take "every time step" output from the LSTM result. (i.e. output-dim from Encoder = bt-size*time-step*128)
+0  | MSE:30.411
+500  | MSE:20.596
+1000  | MSE:21.393
+1500  | MSE:21.267
+2000  | MSE:19.903
+2500  | MSE:21.045
+3000  | MSE:21.131
+3500  | MSE:20.71
+4000  | MSE:21.749
+4500  | MSE:20.762
+5000  | MSE:21.878
+5500  | MSE:20.649
+6000  | MSE:21.174
+6500  | MSE:21.421
+7000  | MSE:20.773
+7500  | MSE:20.672
+8000  | MSE:21.123
+8500  | MSE:21.258
+9000  | MSE:21.141
+9500  | MSE:20.688
+Traceback (most recent call last):
+  File "vae-wgan-lstm-winnie-pure-test-on-vae-remove-sampling.py", line 454, in <module>
+    sp_s2t_norm = netG(sampler(netE(Variable(torch.from_numpy(sp_s_norm)).cuda())), Variable(torch.from_numpy(id_t).float()).cuda()).data.cpu().numpy()
+  File "/opt/anaconda3/lib/python3.5/site-packages/torch/nn/modules/module.py", line 224, in __call__
+    result = self.forward(*input, **kwargs)
+  File "vae-wgan-lstm-winnie-pure-test-on-vae-remove-sampling.py", line 202, in forward
+    output = torch.cat([input, sid],2) # 64*8*66
+  File "/opt/anaconda3/lib/python3.5/site-packages/torch/autograd/variable.py", line 897, in cat
+    return Concat.apply(dim, *iterable)
+  File "/opt/anaconda3/lib/python3.5/site-packages/torch/autograd/_functions/tensor.py", line 316, in forward
+    ctx.input_sizes = [i.size(dim) for i in inputs]
+  File "/opt/anaconda3/lib/python3.5/site-packages/torch/autograd/_functions/tensor.py", line 316, in <listcomp>
+    ctx.input_sizes = [i.size(dim) for i in inputs]
+RuntimeError: invalid argument 2: out of range at /opt/conda/conda-bld/pytorch_1503968623488/work/torch/lib/THC/generic/THCTensor.c:23

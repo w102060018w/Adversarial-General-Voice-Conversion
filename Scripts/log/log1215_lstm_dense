@@ -1,0 +1,39 @@
+nohup: ignoring input
+0  | W:0.333 | KLD:0.088 | MSE:32.073
+500  | W:-0.948 | KLD:0.037 | MSE:20.492
+1000  | W:-0.948 | KLD:0.006 | MSE:21.695
+1500  | W:-0.95 | KLD:0.0 | MSE:21.717
+2000  | W:-0.953 | KLD:0.0 | MSE:20.658
+2500  | W:-0.954 | KLD:0.0 | MSE:21.234
+3000  | W:-0.956 | KLD:0.0 | MSE:22.287
+3500  | W:-0.956 | KLD:0.0 | MSE:21.335
+4000  | W:-0.956 | KLD:0.0 | MSE:20.833
+4500  | W:-0.956 | KLD:0.0 | MSE:21.221
+5000  | W:-0.957 | KLD:0.0 | MSE:20.919
+5500  | W:-0.955 | KLD:0.0 | MSE:22.131
+6000  | W:-0.955 | KLD:0.0 | MSE:22.223
+6500  | W:-0.956 | KLD:0.0 | MSE:21.519
+7000  | W:-0.954 | KLD:0.0 | MSE:20.841
+7500  | W:-0.956 | KLD:0.0 | MSE:22.055
+8000  | W:-0.955 | KLD:0.0 | MSE:22.826
+8500  | W:-0.955 | KLD:0.0 | MSE:20.646
+9000  | W:-0.955 | KLD:0.0 | MSE:22.397
+9500  | W:-0.955 | KLD:0.0 | MSE:21.176
+Traceback (most recent call last):
+  File "vae-wgan-lstm-winnie-test-on-dense.py", line 444, in <module>
+    fig = plt.figure()
+  File "/opt/anaconda3/lib/python3.5/site-packages/matplotlib/pyplot.py", line 535, in figure
+    **kwargs)
+  File "/opt/anaconda3/lib/python3.5/site-packages/matplotlib/backends/backend_qt5agg.py", line 44, in new_figure_manager
+    return new_figure_manager_given_figure(num, thisFig)
+  File "/opt/anaconda3/lib/python3.5/site-packages/matplotlib/backends/backend_qt5agg.py", line 51, in new_figure_manager_given_figure
+    canvas = FigureCanvasQTAgg(figure)
+  File "/opt/anaconda3/lib/python3.5/site-packages/matplotlib/backends/backend_qt5agg.py", line 242, in __init__
+    super(FigureCanvasQTAgg, self).__init__(figure=figure)
+  File "/opt/anaconda3/lib/python3.5/site-packages/matplotlib/backends/backend_qt5agg.py", line 66, in __init__
+    super(FigureCanvasQTAggBase, self).__init__(figure=figure)
+  File "/opt/anaconda3/lib/python3.5/site-packages/matplotlib/backends/backend_qt5.py", line 236, in __init__
+    _create_qApp()
+  File "/opt/anaconda3/lib/python3.5/site-packages/matplotlib/backends/backend_qt5.py", line 144, in _create_qApp
+    raise RuntimeError('Invalid DISPLAY variable')
+RuntimeError: Invalid DISPLAY variable
