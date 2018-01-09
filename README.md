@@ -31,10 +31,10 @@ Using a VAE-GAN structure can indeed solve the problem of the unaligned and inco
 
 ## Reference
 
-[1] C. C. Hsu, et. al., “Voice conversion from unaligned corpora using variational autoencoding wasserstein generative adversarial networks”, arXiv preprint arXiv:1704.00849, 2017.
-[2]  T. Toda, L. Chen, D. Saito, F. Villavicencio, M. Wester, Z. Wu, and J. Yamagishi, “The Voice Conversion Challenge 2016,” in (submitted to) Interspeech, 2016.
-[3] L.-H. Chen, Z.-H. Ling, L.-J. Liu, and L.-R. Dai, “Voice conversion using deep neural networks with layer-wise generative training,” in Intelligent Control and Information Processing (ICICIP), vol. 22, no. 12, pp. 1859-1872, 2014. 
-[4] L. Sun, S. Kang, K. Li, and H. Meng, “Voice conversion using deep Bidirectional Long Short-Term Memory based Recurrent Neural Networks,” in IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2015, pp. 4869-4873. 
+[1] C. C. Hsu, et. al., “Voice conversion from unaligned corpora using variational autoencoding wasserstein generative adversarial networks”, arXiv preprint arXiv:1704.00849, 2017.</br>
+[2]  T. Toda, L. Chen, D. Saito, F. Villavicencio, M. Wester, Z. Wu, and J. Yamagishi, “The Voice Conversion Challenge 2016,” in (submitted to) Interspeech, 2016.</br>
+[3] L.-H. Chen, Z.-H. Ling, L.-J. Liu, and L.-R. Dai, “Voice conversion using deep neural networks with layer-wise generative training,” in Intelligent Control and Information Processing (ICICIP), vol. 22, no. 12, pp. 1859-1872, 2014. </br>
+[4] L. Sun, S. Kang, K. Li, and H. Meng, “Voice conversion using deep Bidirectional Long Short-Term Memory based Recurrent Neural Networks,” in IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2015, pp. 4869-4873. </br>
 [5] M. Arjovsky, S. Chintala, and L. Bottou, “Wasserstein GAN,” CoRR, vol. abs/1701.07875, 2017. [Online]. Available: http://arxiv.org/abs/1701.07875 
-[6] Goodfellow, Ian; Pouget-Abadie, Jean; Mirza, Mehdi; Xu, Bing; Warde-Farley, David; Ozair, Sherjil; Courville, Aaron; Bengio, Joshua (2014). "Generative Adversarial Networks". arXiv:1406.2661
-[7] http://blog.aylien.com/introduction-generative-adversarial-networks-code-tensorflow/
+[6] Goodfellow, Ian; Pouget-Abadie, Jean; Mirza, Mehdi; Xu, Bing; Warde-Farley, David; Ozair, Sherjil; Courville, Aaron; Bengio, Joshua (2014). "Generative Adversarial Networks". arXiv:1406.2661</br>
+[7] http://blog.aylien.com/introduction-generative-adversarial-networks-code-tensorflow/</br>
