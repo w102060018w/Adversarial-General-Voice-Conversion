@@ -1,6 +1,8 @@
 # Adversarial Training On General Voice Conversion <span style="color:red"></span>
 Author: Hao-Chun Yang, Gao-Yi Chao, Hui-Ting Hong, Kun-Chieh Hsu </br>
 
+This work is mainly inspired by [*"Voice Conversion from Unaligned Corpora using Variational Autoencoding Wasserstein Generative Adversarial Networks"*](https://arxiv.org/abs/1704.00849).
+
 ## Introduction
 
 <p align="center"><img src = "./imgs/intro.png"></p>
