@@ -1,2 +1,1 @@
-* linguist-vendored
-*.m linguist-vendored=false
+/Scripts/STRAIGHT/* linguist-vendored
