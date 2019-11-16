@@ -1,7 +1,7 @@
 # Adversarial Training On General Voice Conversion <span style="color:red"></span>
 Author: Hao-Chun Yang, Gao-Yi Chao, Hui-Ting Hong, Kun-Chieh Hsu </br>
 
-This work is mainly inspired by [*"Voice Conversion from Unaligned Corpora using Variational Autoencoding Wasserstein Generative Adversarial Networks"*](https://arxiv.org/abs/1704.00849). </br></br>To see more detail please go to our [report](./Final_report.pdf).
+This work is mainly inspired by [*"Voice Conversion from Unaligned Corpora using Variational Autoencoding Wasserstein Generative Adversarial Networks"*](https://arxiv.org/abs/1704.00849). </br></br>To see more detail refer to [report](./report.pdf).
 
 
 ## Introduction
@@ -23,7 +23,7 @@ The structure we are going to use is the variational autoencoder combined with t
 * **Stage-1**: -c-VAE -</br>
 Encode into a speaker independent latent representation z -> reconstruct the spectral information -> Evaluated in KLD(KL Divergence) and MSE(Mean Square Error).</br>
 * **Stage-2**: -Discriminator -</br>
-Evaluate the similarity between reconstruct spectral information and target feature. Here we use improved W-GAN as the training objectives. Its discriminative power gives us a supervision on judging whether the generated speech probability distribution is approximate to the real target speakers speech distribution. We believe that with the combination of conditional VAE and adversarial training techniques, we are able to implement a voice conversion system with better acoustic style transfer result. Also, in our experiments, we applied both DNN and RNN version of the network. The main idea using RNN is that it can utilize their internal memory to process arbitrary sequences of inputs to exhibit the dynamic temporal behavior of a sequence, and we plan to use long short-term memory networks (LSTM) as an Encoder-Decoder structure to hopefully reconstruct indistinguishable feature compare with the target feature. To see more detail please go to our [report](./Final_report.pdf).
+Evaluate the similarity between reconstruct spectral information and target feature. Here we use improved W-GAN as the training objectives. Its discriminative power gives us a supervision on judging whether the generated speech probability distribution is approximate to the real target speakers speech distribution. We believe that with the combination of conditional VAE and adversarial training techniques, we are able to implement a voice conversion system with better acoustic style transfer result. Also, in our experiments, we applied both DNN and RNN version of the network. The main idea using RNN is that it can utilize their internal memory to process arbitrary sequences of inputs to exhibit the dynamic temporal behavior of a sequence, and we plan to use long short-term memory networks (LSTM) as an Encoder-Decoder structure to hopefully reconstruct indistinguishable feature compare with the target feature. To see more detail please refer to [report](./report.pdf).
 
 ## Results and Discussion
 #### 1. Training Variational Autoencoder.
@@ -40,7 +40,7 @@ Compare generated results using DNN and RNN structure in autoencoder. We found t
 
 
 ## Conclusion
-Using a VAE-GAN structure can indeed solve the problem of the unaligned and inconsistent-content dataset and with several training tricks mentioned above,  we create a more robust model on multi-person voice conversion system. As the demo shown in the presentation we can hear the reconstructed voice is pretty nice, we believe with so many promising applications of voice conversion, including speech impaired, gamming, healthcare, etc. We can go way much longer in the future. To see more detail please refer to our [report](./Final_report.pdf)
+Using a VAE-GAN structure can indeed solve the problem of the unaligned and inconsistent-content dataset and with several training tricks mentioned above,  we create a more robust model on multi-person voice conversion system. As the demo shown in the presentation we can hear the reconstructed voice is pretty nice, we believe with so many promising applications of voice conversion, including speech impaired, gamming, healthcare, etc. We can go way much longer in the future.
 
 ## Acknowlegement
 Thanks to the collaboration of Gao-Yi Chao, Hao-Chun Yang and Jonathan Hsu. And the early implementation support from the [the work](https://arxiv.org/abs/1704.00849)
@@ -54,8 +54,8 @@ arXiv:1704.00849.</br>
 [4] I. Gulrajani, F. Ahmed, M. Arjovsky, V. Dumoulin, and
 A. Courville. Improved training of wasserstein gans. arXiv
 preprint arXiv:1704.00028, 2017.</br>
-[5] H. H. K. H. H.C. Yang, G.Y. Chao. General voice con-
-version. https://github.com/w102060018w/Adversarial-General-Voice-Conversion, 2017.</br>
+[5] H. H. K. H. H.C. Yang, G.Y. Chao. [General voice con-
+version](https://github.com/w102060018w/Adversarial-General-Voice-Conversion) 2017.</br>
 [6] D. Kingma and J. Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014.</br>
 [7] M. Morise, F. Yokomori, and K. Ozawa. World: A vocoderbased high-quality speech synthesis system for real-time applications. IEICE TRANSACTIONS on Information and Systems, 99(7):1877–1884, 2016.</br>
 [8] T. Nose and T. Kobayashi. Hmm-based robust voice conversion using adaptive f0 quantization. In Seventh ISCA Workshop on Speech Synthesis, 2010.</br>
