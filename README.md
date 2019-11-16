@@ -8,7 +8,8 @@ This work is mainly inspired by [*"Voice Conversion from Unaligned Corpora using
 
 <p align="center"><img src = "./imgs/intro.png"></p>
 
-Voice conversion(VC) is a classical task which usually aims at transforming the voice of a source speaker into that of a target speaker while preserving the linguistic content[2]. In this project, we are going to deal with this classical task with unaligned corpora in conditional variational autoencoder with adversarial training. </br>Many techniques have been developed for VC, such as Gaussian mixture models, Hidden Markov models, Gaussian regression, RNN. One big issue in the training of the speech conversion system is data, which prefers parallel and pairwise data. Since the inter-speaker speech alignment could be a problem for machines to learn speech style among different individuals. Hence, in this work, we apply adversarial training architecture for speech style transformation. 
+Voice conversion(VC) is a classical task which usually aims at transforming the voice of a source speaker into that of a target speaker while preserving the linguistic content[2]. In this project, we are going to deal with this classical task with unaligned corpora in conditional variational autoencoder with adversarial training. </br>
+Many techniques have been developed for VC, such as Gaussian mixture models, Hidden Markov models, Gaussian regression, RNN. One big issue in the training of the speech conversion system is data, which prefers parallel and pairwise data. Since the inter-speaker speech alignment could be a problem for machines to learn speech style among different individuals. Hence, in this work, we apply adversarial training architecture for speech style transformation. 
 
 #### Files: </br>
 * [vae-gan-hgy.py](./Scripts/vae-gan-hgy.py): for running the code.
@@ -41,8 +42,23 @@ Compare generated results using DNN and RNN structure in autoencoder. We found t
 ## Conclusion
 Using a VAE-GAN structure can indeed solve the problem of the unaligned and inconsistent-content dataset and with several training tricks mentioned above,  we create a more robust model on multi-person voice conversion system. As the demo shown in the presentation we can hear the reconstructed voice is pretty nice, we believe with so many promising applications of voice conversion, including speech impaired, gamming, healthcare, etc. We can go way much longer in the future. To see more detail please refer to our [report](./Final_report.pdf)
 
+## Acknowlegement
+Thanks to the collaboration of Gao-Yi Chao, Hao-Chun Yang and Jonathan Hsu. And the early implementation support from the [the work](https://arxiv.org/abs/1704.00849)
+
 ## Reference
 
-[1] M. Arjovsky, S. Chintala, and L. Bottou. Wasserstein gan. arXiv preprint arXiv:1701.07875, 2017.</br>[2] Y. Chen, M. Chu, E. Chang, J. Liu, and R. Liu. Voice conversion with smoothed gmm and map adaptation. In Eighth European Conference on Speech Communication and Technology, 2003.</br>
-[3] Y.-C. W. Y. T. H.-M. W. Chin-Cheng Hsu, Hsin-Te Hwang. Voice conversion from unaligned corpora using variational autoencoding wasserstein generative adversarial networks, 2017. Submitted to INTERSPEECH 2017arXiv:1704.00849.</br>
-[4] I. Gulrajani, F. Ahmed, M. Arjovsky, V. Dumoulin, andA. Courville. Improved training of wasserstein gans. arXivpreprint arXiv:1704.00028, 2017.</br>[5] H. H. K. H. H.C. Yang, G.Y. Chao. General voice con-version. https://github.com/w102060018w/Adversarial-General-Voice-Conversion, 2017.</br>[6] D. Kingma and J. Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014.</br>[7] M. Morise, F. Yokomori, and K. Ozawa. World: A vocoderbased high-quality speech synthesis system for real-time applications. IEICE TRANSACTIONS on Information and Systems, 99(7):1877–1884, 2016.</br>[8] T. Nose and T. Kobayashi. Hmm-based robust voice conversion using adaptive f0 quantization. In Seventh ISCA Workshop on Speech Synthesis, 2010.</br>[9] L. Sun, S. Kang, K. Li, and H. Meng. Voice conversion using deep bidirectional long short-term memory based recurrent neural networks. In Acoustics, Speech and Signal Processing (ICASSP), 2015 IEEE International Conference on, pages 4869–4873. IEEE, 2015.</br>[10] T. Toda, L.-H. Chen, D. Saito, F. Villavicencio, M. Wester, Z. Wu, and J. Yamagishi. The voice conversion challenge 2016., 2016.</br>[11] J. Yamagishi. An introduction to hmm-based speech synthesis. Technical Report, 2006.</br>
+[1] M. Arjovsky, S. Chintala, and L. Bottou. Wasserstein gan. arXiv preprint arXiv:1701.07875, 2017.</br>
+[2] Y. Chen, M. Chu, E. Chang, J. Liu, and R. Liu. Voice conversion with smoothed gmm and map adaptation. In Eighth European Conference on Speech Communication and Technology, 2003.</br>
+[3] Y.-C. W. Y. T. H.-M. W. Chin-Cheng Hsu, Hsin-Te Hwang. Voice conversion from unaligned corpora using variational autoencoding wasserstein generative adversarial networks, 2017. Submitted to INTERSPEECH 2017
+arXiv:1704.00849.</br>
+[4] I. Gulrajani, F. Ahmed, M. Arjovsky, V. Dumoulin, and
+A. Courville. Improved training of wasserstein gans. arXiv
+preprint arXiv:1704.00028, 2017.</br>
+[5] H. H. K. H. H.C. Yang, G.Y. Chao. General voice con-
+version. https://github.com/w102060018w/Adversarial-General-Voice-Conversion, 2017.</br>
+[6] D. Kingma and J. Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014.</br>
+[7] M. Morise, F. Yokomori, and K. Ozawa. World: A vocoderbased high-quality speech synthesis system for real-time applications. IEICE TRANSACTIONS on Information and Systems, 99(7):1877–1884, 2016.</br>
+[8] T. Nose and T. Kobayashi. Hmm-based robust voice conversion using adaptive f0 quantization. In Seventh ISCA Workshop on Speech Synthesis, 2010.</br>
+[9] L. Sun, S. Kang, K. Li, and H. Meng. Voice conversion using deep bidirectional long short-term memory based recurrent neural networks. In Acoustics, Speech and Signal Processing (ICASSP), 2015 IEEE International Conference on, pages 4869–4873. IEEE, 2015.</br>
+[10] T. Toda, L.-H. Chen, D. Saito, F. Villavicencio, M. Wester, Z. Wu, and J. Yamagishi. The voice conversion challenge 2016., 2016.</br>
+[11] J. Yamagishi. An introduction to hmm-based speech synthesis. Technical Report, 2006.</br>
