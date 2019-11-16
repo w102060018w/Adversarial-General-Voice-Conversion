@@ -54,8 +54,7 @@ arXiv:1704.00849.</br>
 [4] I. Gulrajani, F. Ahmed, M. Arjovsky, V. Dumoulin, and
 A. Courville. Improved training of wasserstein gans. arXiv
 preprint arXiv:1704.00028, 2017.</br>
-[5] H. H. K. H. H.C. Yang, G.Y. Chao. [General voice con-
-version](https://github.com/w102060018w/Adversarial-General-Voice-Conversion) 2017.</br>
+[5] H. H. K. H. H.C. Yang, G.Y. Chao. [General voice conversion](https://github.com/w102060018w/Adversarial-General-Voice-Conversion) 2017.</br>
 [6] D. Kingma and J. Ba. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014.</br>
 [7] M. Morise, F. Yokomori, and K. Ozawa. World: A vocoderbased high-quality speech synthesis system for real-time applications. IEICE TRANSACTIONS on Information and Systems, 99(7):1877–1884, 2016.</br>
 [8] T. Nose and T. Kobayashi. Hmm-based robust voice conversion using adaptive f0 quantization. In Seventh ISCA Workshop on Speech Synthesis, 2010.</br>
